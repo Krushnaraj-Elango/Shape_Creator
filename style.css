@@ -1,0 +1,60 @@
+#upper{
+    margin: auto;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+    background-image: url(bg.jpg);
+    height: 200px;
+    color: whitesmoke;
+    padding-top: 5%;
+}
+
+/* #inner{
+    
+} */
+
+button{
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+}
+
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    padding: 10px;
+    margin: 10px;
+}
+
+.rectangle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 75px;
+    background-color: purple;
+    padding: 10px;
+    margin: 10px;
+}
+
+#answer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

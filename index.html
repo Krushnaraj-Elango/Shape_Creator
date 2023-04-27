@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="upper">
+        <div id="inner">
+            <h2>Shape Creator</h2>
+            <p>Select a shape & no of shapes</p>
+            <input type="radio" name="shape" id="c">Circle
+            <input type="radio" name="shape" id="s">Square
+            <input type="radio" name="shape" id="r">Rectangle<br>
+            <input type="number" id="n">
+            <input type="color" id="colorpicker">
+            <button type="submit" id="g" onclick="handleFunction()">Generate</button>
+        </div>
+    </div>
+    <div id="lower">
+        <div id="answer"></div>
+    </div>
+    <script src="design.js"></script>
+</body>
+</html>
